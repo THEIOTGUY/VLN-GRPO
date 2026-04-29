@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pth
+*.whl
+
+# Virtual environments / conda
+miniconda3/
+*.sh.checksum
+
+# Large installer files
+Miniconda3-*.sh
+flash_attn-*.whl
+flashinfer_*.whl
+
+# Data (large datasets)
+data/
+
+# Navigation workspace (compiled habitat-sim/lab)
+nav_ws/
+
+# Model checkpoints
+verl_checkpoints/
+checkpoints/
+global_step_*/
+
+# Logs
+training.log
+server.log
+*.log
+nohup.out
+swanlog/
+tensorboard_log/
+outputs/
+
+# WandB
+wandb/
+
+# Hydra outputs
+outputs/
+.hydra/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / keys (safety net)
+*.env
+.env*
+secrets/
